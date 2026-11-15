@@ -826,5 +826,9 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("install-directory-not-empty-tip", "A pasta selecionada não está vazia. A instalação pode eliminar dados existentes. Considere escolher outra pasta."),
         ("Request approval", "Solicitar aprovação"),
         ("Forever", "Para sempre"),
+        ("Use DRM screen capture", "Utilizar captura de ecrã DRM"),
+        ("drm-capture-tip", "Captura o ecrã diretamente da placa gráfica através do serviço do RustDesk, sem o pedido de partilha de ecrã do Wayland, incluindo no ecrã de início de sessão. Pode não funcionar em todos os dispositivos; se as ligações continuarem a pedir a partilha do ecrã, desative isto ou utilize o X11. Alterar isto desliga as sessões atuais."),
+        ("wayland-drm-tip", "Para acesso não assistido no Wayland, experimente a captura de ecrã DRM ou utilize o X11 se não funcionar."),
+        ("login-wayland-drm-tip", "Para aceder ao ecrã de início de sessão do Wayland, experimente a captura DRM ou mude-o para X11."),
     ].iter().cloned().collect();
 }

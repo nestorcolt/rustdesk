@@ -826,5 +826,9 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("install-directory-not-empty-tip", "Den valgte mappe er ikke tom. Installationen kan slette eksisterende data. Overvej at vælge en anden mappe."),
         ("Request approval", "Anmod om godkendelse"),
         ("Forever", "For evigt"),
+        ("Use DRM screen capture", "Brug DRM-skærmoptagelse"),
+        ("drm-capture-tip", "Optager skærmen direkte fra grafikkortet via RustDesk-tjenesten uden Waylands forespørgsel om skærmdeling, også på login-skærmen. Virker muligvis ikke på alle enheder; hvis forbindelser stadig beder om skærmdeling, så slå dette fra eller brug X11. Ændring afbryder de aktuelle sessioner."),
+        ("wayland-drm-tip", "Prøv DRM-skærmoptagelse for ubemandet adgang under Wayland, eller brug X11, hvis det ikke virker."),
+        ("login-wayland-drm-tip", "Prøv DRM-skærmoptagelse for at få adgang til Waylands login-skærm, eller skift den til X11."),
     ].iter().cloned().collect();
 }

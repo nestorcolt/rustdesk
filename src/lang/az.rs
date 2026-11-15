@@ -826,5 +826,9 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("install-directory-not-empty-tip", "Seçilmiş qovluq boş deyil. Quraşdırma mövcud məlumatları silə bilər. Başqa qovluq seçməyiniz tövsiyə olunur."),
         ("Request approval", "Təsdiq istə"),
         ("Forever", "Həmişəlik"),
+        ("Use DRM screen capture", "DRM ekran çəkilişindən istifadə et"),
+        ("drm-capture-tip", "Ekranı RustDesk xidməti vasitəsilə birbaşa qrafik kartdan çəkir, Wayland ekran paylaşımı sorğusu olmadan, giriş ekranı da daxil olmaqla. Hər cihazda işləməyə bilər; bağlantılar hələ də ekranı paylaşmağı tələb edirsə, bunu söndürün və ya X11 işlədin. Bunu dəyişmək cari sessiyaları kəsir."),
+        ("wayland-drm-tip", "Wayland-da nəzarətsiz giriş üçün DRM ekran çəkilişini sınayın, işləməzsə X11 işlədin."),
+        ("login-wayland-drm-tip", "Wayland giriş ekranına daxil olmaq üçün DRM ekran çəkilişini sınayın və ya onu X11-ə keçirin."),
     ].iter().cloned().collect();
 }

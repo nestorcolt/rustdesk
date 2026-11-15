@@ -826,5 +826,9 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("install-directory-not-empty-tip", "Hautatutako karpeta ez dago hutsik. Instalazioak lehendik dauden datuak ezaba ditzake. Beste karpeta bat aukeratzea gomendatzen da."),
         ("Request approval", "Eskatu onespena"),
         ("Forever", "Betiko"),
+        ("Use DRM screen capture", "Erabili DRM pantaila-kaptura"),
+        ("drm-capture-tip", "Pantaila zuzenean txartel grafikotik kapturatzen du RustDesk zerbitzuaren bidez, Wayland-en pantaila partekatzeko eskaerarik gabe, saio-hasierako pantailan ere bai. Baliteke gailu guztietan ez ibiltzea; konexioek pantaila partekatzeko eskatzen jarraitzen badute, desaktibatu hau edo erabili X11. Aldatzeak uneko saioak deskonektatzen ditu."),
+        ("wayland-drm-tip", "Wayland-en arretarik gabeko sarrerarako, probatu DRM pantaila-kaptura, edo erabili X11 ez badabil."),
+        ("login-wayland-drm-tip", "Wayland-en saio-hasierako pantailara sartzeko, probatu DRM pantaila-kaptura edo aldatu X11-ra."),
     ].iter().cloned().collect();
 }

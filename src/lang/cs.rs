@@ -826,5 +826,9 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("install-directory-not-empty-tip", "Vybraná složka není prázdná. Instalace může odstranit existující data. Zvažte výběr jiné složky."),
         ("Request approval", "Požádat o schválení"),
         ("Forever", "Navždy"),
+        ("Use DRM screen capture", "Použít snímání obrazovky přes DRM"),
+        ("drm-capture-tip", "Snímá obrazovku přímo z grafické karty prostřednictvím služby RustDesk, bez výzvy Waylandu ke sdílení obrazovky, a to i na přihlašovací obrazovce. Nemusí fungovat na všech zařízeních; pokud připojení stále žádají o sdílení obrazovky, vypněte tuto volbu nebo použijte X11. Změna této volby odpojí aktuální relace."),
+        ("wayland-drm-tip", "Pro bezobslužný přístup ve Waylandu zkuste snímání obrazovky přes DRM, nebo použijte X11, pokud nefunguje."),
+        ("login-wayland-drm-tip", "Pro přístup k přihlašovací obrazovce Waylandu zkuste snímání přes DRM nebo ji přepněte na X11."),
     ].iter().cloned().collect();
 }
